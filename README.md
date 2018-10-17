@@ -1,6 +1,7 @@
 ## Duck Hunter VR Overview
 
-video
+### Demo Video
+[![Demo](https://github.com/jthom330/Duck-Hunter-VR/blob/master/Images/Start_Screen.png)](https://youtu.be/1ctn2TvFcPI)
 
 ### Description
 For my capstone project, I am building a Google Daydream app inspired by the the original NES Duck Hunt.
@@ -24,6 +25,9 @@ I achieved this through a simple strategy of having the ducks contain a destinat
 that would move to a random point, within a range, each time they collided with it.  While the AI
 is very simple, it works perfectly for this game. 
 
+![Duck](https://github.com/jthom330/Duck-Hunter-VR/blob/master/Images/Duck_Model.png "Duck Model")
+
+
 #### Animations
 This game has three areas that contain animation: the ducks, the gun, and the UI.
 I created all the animations in the game within Unity.  The gun has a kickback 
@@ -31,17 +35,23 @@ and pump animation that was created simply by shifting positions.  The ducks hav
 death animation that was created by changing the rotation on their wings and body.  Finally, I animated 
 some of the UI elements using scale and rotation.  
 
+![Animations](https://github.com/jthom330/Duck-Hunter-VR/blob/master/Images/Animation_Gun.png "Gun Animation")
+
 #### Particle Effects 
 I used particle systems just to draw attention to actions or add some visual interest.
 For the primary mechanics, I used them to show the muzzle flash on the user's gun as well as 
 emphasizing when a duck was hit.  In the background I used a particle system to display a smoke 
 stack.
 
+![Animations](https://github.com/jthom330/Duck-Hunter-VR/blob/master/Images/Shot.png "Gun Animation")
+
 #### Low Poly Environments 
 I wanted to create a beautiful environment so that players would have a pleasant view as 
 they played.  Due to the resource constraints of mobile VR, I had to use low poly assets 
 in order to fit everything I wanted into the scene.  I was able to make up for the lack 
 of detail using bright colors and baked lighting.
+
+![Map](https://github.com/jthom330/Duck-Hunter-VR/blob/master/Images/Map.png "Low Poly Map")
 
 #### Score System
 Since this game does not have an 'end' I wanted to incentivize plays with a scoring system.
@@ -53,6 +63,8 @@ For menus/prompts I used basic UI windows in world space, as demonstrated multip
 the VR nano-degree program.  However, the traditional HUD elements took some more creativity.
 It took a few iterations and some user feedback before I landed on showing what would normally
 be HUD elements on a wooden sign within easy view of the player.
+
+![UI](https://github.com/jthom330/Duck-Hunter-VR/blob/master/Images/UI_Board.png "Simple UI")
 
 #### Sound 
 I used Google's resonance audio for spacial audio within the game environment.  I applied spacial 
@@ -75,6 +87,10 @@ after being hit.  Lastly, I use sphere casts to actually shoot at the ducks.
 * If they complete the round, repeat with increased difficulty.  Else, show game over menu.
 
 ### Development 
+
+![Level](https://github.com/jthom330/Duck-Hunter-VR/blob/master/Images/Level_Sketch.png "Level Sketch")
+![UI](https://github.com/jthom330/Duck-Hunter-VR/blob/master/Images/UI_Sketch.jpg "UI Sketch")
+
 
 #### Idea and Strategy 
 While I detailed all of the notable game elements in the above feature section, my initial strategy 
