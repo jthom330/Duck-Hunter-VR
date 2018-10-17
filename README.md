@@ -88,7 +88,7 @@ after being hit.  Lastly, I use sphere casts to actually shoot at the ducks.
 
 ### Development 
 
-![Level](https://github.com/jthom330/Duck-Hunter-VR/blob/master/Images/Level_Sketch.png "Level Sketch")
+![Level](https://github.com/jthom330/Duck-Hunter-VR/blob/master/Images/Level_Sketch.jpg "Level Sketch")
 ![UI](https://github.com/jthom330/Duck-Hunter-VR/blob/master/Images/UI_Sketch.jpg "UI Sketch")
 
 
