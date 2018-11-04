@@ -87,9 +87,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 3bdaa5bfb2a82774fa9fab238ee3a371, type: 3}
-  - {fileID: 2100002, guid: 3bdaa5bfb2a82774fa9fab238ee3a371, type: 3}
-  - {fileID: 2100004, guid: 3bdaa5bfb2a82774fa9fab238ee3a371, type: 3}
+  - {fileID: 2100000, guid: 4b0240ae01e34224ab0ad64df31cfb9d, type: 3}
+  - {fileID: 2100002, guid: 4b0240ae01e34224ab0ad64df31cfb9d, type: 3}
+  - {fileID: 2100004, guid: 4b0240ae01e34224ab0ad64df31cfb9d, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -115,7 +115,7 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1030542595570754}
-  m_Mesh: {fileID: 4300000, guid: 3bdaa5bfb2a82774fa9fab238ee3a371, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 4b0240ae01e34224ab0ad64df31cfb9d, type: 3}
 --- !u!54 &54354753254186052
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -142,3 +142,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 434a8ad3d37e400469f625cbba72c576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadeSpeed: 1
